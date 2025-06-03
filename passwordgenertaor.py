@@ -5,7 +5,6 @@ helping to protect user accounts and sensitive information.'''
 
 import random
 import string
-# Acc to question Users can specify criteria such as password length and the inclusion of uppercase letters, lowercase letters,numbers, and special characters#
 length=int(input("Enter password length: "))
 include_upper=input("Include UPPERCASE letters? (yes/no):").lower()=='yes'
 include_lower=input("Include lowercase letters? (yes/no): ").lower()=='yes'
