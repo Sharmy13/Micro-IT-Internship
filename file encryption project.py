@@ -1,3 +1,9 @@
+''' A file encryption/decryption tool is an application that secures files by converting them into a coded
+ format, making them unreadable without the correct key or password. Users can encrypt files to protect
+ sensitive information and decrypt them when access is needed. The tool typically features a user-friendly
+ interface for selecting files, entering encryption keys, and managing the encryption process, ensuring data
+ confidentiality and security.'''
+
 import tkinter as tk
 from tkinter import filedialog,messagebox
 from cryptography.fernet import Fernet
